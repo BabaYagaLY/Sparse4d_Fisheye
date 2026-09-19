@@ -1,0 +1,22 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 训练产物 / 权重 ----
+work_dirs/
+*.pth
+*.ckpt
+*.pkl
+result.pkl
+
+# ---- 数据 / 标定 / anchor（公司数据，不上传） ----
+data/
+*.npy
+*.npz
+
+# ---- IDE / 系统 ----
+.vscode/
+.idea/
+.DS_Store
